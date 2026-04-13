@@ -9,7 +9,7 @@ DB_PASSWORD = os.getenv("DB_PASSWORD", "12345678")
 DB_HOST     = os.getenv("DB_HOST", "localhost")
 DB_PORT     = os.getenv("DB_PORT", "5432")
 DB_NAME     = os.getenv("DB_NAME", "searcher")
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+psycopg2://postgres.hqitqjhmmcuqlofrqhnf:Shubroto123@aws-0-ap-northeast-1.pooler.supabase.com:6543/postgres")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+psycopg2://postgres.hqitqjhmmcuqlofrqhnf:Shubroto123@aws-0-ap-northeast-1.pooler.supabase.com:5432/postgres?options=-c%20search_path%3Dpublic")
 
 # Server
 API_HOST = "0.0.0.0"
