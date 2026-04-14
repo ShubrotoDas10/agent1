@@ -51,7 +51,7 @@ async def startup():
     )
     scheduler.start()
     logger.info(f"Scheduler started — pipeline runs every {COLLECTION_INTERVAL_HOURS}h")
-    logger.info("Server is live at http://localhost:9100 — pipeline will run on schedule or via manual trigger")
+    logger.info("Server is live — pipeline will run on schedule or via manual trigger")
 
 
 @app.on_event("shutdown")
