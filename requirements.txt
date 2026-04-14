@@ -14,5 +14,6 @@ lxml==5.2.2
 python-dotenv==1.0.1
 loguru==0.7.2
 aiofiles==23.2.1
-torch==2.2.2
 transformers==4.40.0
+tokenizers==0.19.1
+huggingface-hub==0.23.0
